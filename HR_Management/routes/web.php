@@ -18,3 +18,7 @@ Route::get('/about', 'HomeController@about');
 
 
 Route::get('/company', 'CompanyController@index');
+Route::get('/addcompany', function(){
+    return view('company.addcompany');
+});
+Route::post('/savecompany', 'CompanyController@insertcompany');
