@@ -47,7 +47,7 @@ Add Company
                   </div>
                   <div class="form-group">
                     <label for="companyDetails">Company Details</label>
-                    <textarea name="cdetails" class="form-control">Details...</textarea>
+                    <textarea name="cdetails" class="form-control"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">File input</label>

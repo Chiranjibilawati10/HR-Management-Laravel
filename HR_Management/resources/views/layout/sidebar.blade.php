@@ -83,7 +83,78 @@
               </li>
             </ul>
           </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas  fa-sitemap"></i>
+              <p>
+                Branches
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ url('/branch')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>view All</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ url('/addbranch')}}" class="nav-link ">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add New</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas  fa-sitemap"></i>
+              <p>
+                Departments
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ url('/department')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>view All</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ url('/adddepartment')}}" class="nav-link ">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add New</p>
+                </a>
+              </li>
+            </ul>
+          </li>
         
+          <li class="nav-item">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas  fa-sitemap"></i>
+              <p>
+                Designation
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ url('/designation')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>view All</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ url('/adddesignation')}}" class="nav-link ">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add New</p>
+                </a>
+              </li>
+            </ul>
+          </li>
          
           <li class="nav-item">
             <a href="#" class="nav-link">

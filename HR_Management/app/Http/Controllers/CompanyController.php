@@ -16,7 +16,7 @@ class CompanyController extends Controller
     public function insertCompany(Request $request)
     {
         $file = $request->file('clogo');
-        $cplogo = "image_E".rand(0000,9999).".".$file->getClientOriginalExtension();
+        $cplogo = "company_logo".rand(0000,9999).".".$file->getClientOriginalExtension();
 
         $cpname = request('cname');
         $cpdetails = request('cdetails');
